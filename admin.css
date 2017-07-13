@@ -1,0 +1,230 @@
+@CHARSET "ISO-8859-1";
+
+.wrap {width: 100% !important; background: #F1F5F9 !important; margin-left: 0px !important; overflow: auto;}
+#tab1_content, #tab2_content, #tab3_content, #tab4_content {margin-top: 20px;}
+table.emailholder {border-top: none !important;}
+.tableborder textarea, .tableborder input,.tableborder select {  border-color: #CFC7C7;}
+.tabsCntents .error {  color: #FF0000;padding: 6px;}
+.success { background: none repeat scroll 0 0 #DCDBC7;   border: 1px solid #1F8E30;padding: 6px;}
+.wrap .tabsCntents { border: 1px solid #C3C3C3; margin: 0; padding: 0; float: left;display: none; width: 100%; border: none;}
+.wrap #tab2_content .message_updated_success{display:none;}
+.wrap #tab2_content .message_updated_error.error{display:none !important;}
+#emailsettings{padding:15px 0 0 0;}
+.wrap #tab2_content .msgs{display:none;}
+.wrap #tab2_content .new_email_added_success{display:none;}
+.wrap #tab2_content .new_email_removed_success{display:none;}
+.wrap #tab2_content .new_email_edited_success{display:none;}
+.wrap #tab2_content .new_email_added_error.error{display:none;}
+.wrap #tab3_content #webinarprices .tableclass.subject { width: 395px;}
+.wrap #tab3_content #webinarprice_submit {  background: none repeat scroll 0 0 #629819; color: #FFFFFF; font-weight: bold; margin: 0 0 0 86px;  padding: 5px 18px 5px 15px;}
+.wrap .tabholder li {   border: medium none;  margin: 0;  padding: 0;} /* Need for main navigation -- DON'T DELETE */
+#training_prices,#webinarprices{padding:25px 0 0 0;}
+#training_prices .tableclass.subject { min-width: 400px;}
+#webinarprices .tableclass.subject { min-width: 400px;}
+form#messagesettings {text-align: center; margin: 0 auto;}
+
+/*#tab-container {width: 100%; background: orange; overflow: auto;}*/
+
+.error.msgs {
+    display: none;
+}
+
+.blank {
+    display: none;
+    float: left;
+    width: 0;
+}
+
+.wrap .tabsCntents #messagesettings p.error {
+    color: #ff0000;
+    padding: 0px;margin:0;
+}
+
+.wrap .tabsCntents #emailsettings p.error {
+    color: #ff0000;
+    padding: 0px;margin:0;
+}
+
+.col.webinat_id {
+    padding: 0 10px;
+}
+
+#training_prices .tableborder {  border: 1px solid #56b4ef;  clear: both;  float: left;  margin: 0 auto;  width: 400px; text-align: center;}
+/*.submit_btn{background:#fff ; color:#000; font-weight:bold; padding: 5px 10px; border: none; text-align: center;}*/
+.submit_btn {
+  background: #f2f2f2;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #cccccc;
+  -webkit-box-shadow: 0px 1px 3px #e0e0e0;
+  -moz-box-shadow: 0px 1px 3px #e0e0e0;
+  box-shadow: 0px 1px 3px #e0e0e0;
+  font-family: Arial;
+  color: #3b3b3b;
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  border: solid #969696 1px;
+  text-decoration: none;
+}
+
+.submit_btn:hover {
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  text-decoration: none;
+}
+
+.copyshortcode {
+  background: #f2f2f2;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #cccccc;
+  -webkit-box-shadow: 0px 1px 3px #e0e0e0;
+  -moz-box-shadow: 0px 1px 3px #e0e0e0;
+  box-shadow: 0px 1px 3px #e0e0e0;
+  font-family: Arial;
+  color: #3b3b3b;
+  font-size: 11px;
+  padding: 10px 20px 10px 20px;
+  border: solid #969696 1px;
+  text-decoration: none;
+}
+
+.copyshortcode:hover {
+  color: #222;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  text-decoration: none;
+}
+#email_new_submit, #edit_email_submit, #remove_email_submit {
+  background: #f2f2f2;
+  background-image: -webkit-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -ms-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: -o-linear-gradient(top, #f2f2f2, #e6e6e6);
+  background-image: linear-gradient(to bottom, #f2f2f2, #e6e6e6);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 5px;
+  text-shadow: 1px 1px 1px #cccccc;
+  -webkit-box-shadow: 0px 1px 3px #e0e0e0;
+  -moz-box-shadow: 0px 1px 3px #e0e0e0;
+  box-shadow: 0px 1px 3px #e0e0e0;
+  font-family: Arial;
+  color: #3b3b3b;
+  font-size: 11px;
+  padding: 7px 15px 7px 15px;
+  border: solid #969696 1px;
+  text-decoration: none;
+}
+
+#email_new_submit:hover, #edit_email_submit:hover, #remove_email_submit:hover {
+  color: #222;
+  background: #ffffff;
+  background-image: -webkit-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -moz-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -ms-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: -o-linear-gradient(top, #ffffff, #f2f2f2);
+  background-image: linear-gradient(to bottom, #ffffff, #f2f2f2);
+  text-decoration: none;
+}
+
+.submit_btn.btn-light {
+    background: none repeat scroll 0 0 #b3c896;
+}
+
+.tableborder.no-border {
+    border: medium none;
+}
+
+#tab-container form {
+    /*float: left;*/
+    /*min-width: 400px;*/
+    padding: 0px 0;
+}
+input {text-align: center;}
+hr {margin: 0; padding: 0; border: none; border-bottom: 1px solid #efefef;}
+#gotowp-admin-header {height: 100px; background: #48B8C6;}
+.gotowp-logo {padding: 25px 0 0 0;}
+.formholder {display: block; clear: both; overflow: auto;}
+.optional-shortcuts {width: 100%; display: block; clear: both;}
+.option-one {float: left; width: 49%; border-right: 1px solid #efefef; padding-top: 15px; text-align: center;}
+.option-two {float: right; width: 49%; margin-top: 0px; padding-top: 15px; text-align: center;}
+.gotowpsection {margin-bottom: 15px; border-radius: 10px; background: white;
+-webkit-box-shadow: 1px 1px 2px 0px rgba(212,212,212,1);
+-moz-box-shadow: 1px 1px 2px 0px rgba(212,212,212,1);
+box-shadow: 1px 1px 2px 0px rgba(212,212,212,1);
+width: 80%; border: 1px solid white; overflow: auto;}
+.gotowpsection h2 {font-size: 20px; text-align: center; color: #007FC8; padding: 20px 0 20px 0; margin: 0;}
+/*#tab1_content {width: 1000px !important;}*/
+.gotowpsection h3 {margin: 0; padding: 0; text-align: center;}
+.gotowpsection .desc {background: #f9f9f9; width: 100%; border-top: 1px solid #d7d7d7; border-bottom: 1px solid #d4d4d4;}
+.gotowpsection p { font-size: 12px; color: #777; text-align: center; width: 90%; margin: 0 auto; padding: 10px 0;}
+.gotowpsection p strong {color: #444;}
+.gotowpsection ul, .gotowpsection ul li {text-align: center;}
+.savebtn {width: 100%; text-align: center; padding-bottom: 20px; padding-top: 5px;}
+.syncbtn {width: 100%; text-align: center; padding: 0px;}
+.savepricebtn {width: 100%; text-align: center; padding-bottom: 20px; padding-top: 19px;}
+
+.webinar-container {display: block; width: 100%; overflow: auto; /*background: blue;*/ text-align: center;}
+
+.webinar-list-heading{font-weight: bold;/*display:table-row;*/text-align: center;line-height: 25px;font-size: 14px; color:#000; width: 100%; display: none;}
+.webinar-list-details {display: block; clear: both; text-align: center; padding: 20px 20px 50px 20px; width: 100%; border-bottom: 1px solid #d4d4d4;}
+.webinar-list-details:hover {background: #f3f3f3;}
+.webinar-list-details:hover .col.description {border-bottom: 1px solid #fff;}
+.details-main {display: block; clear: both;}
+.details-sub {display: block; clear: both; padding-top: 20px;}
+.col{/*display:table-cell;*/ float: left; width: 15%; text-align: left; /*border: 1px solid blue;*/}
+.col.name {width: 90%; font-size: 20px; padding: 5px 0 16px 0;}
+.col.date {width: 100%; font-size: 12px; padding: 0 0 10px 0; color: #666;}
+.col.description {width: 95%; line-height: 20px; padding-bottom: 10px; border-bottom: 1px solid #f6f6f6;}
+.col.count {line-height: 14px; padding-top: 7px; color: #007FC8; }
+.col.price {line-height: 14px; padding-left: 40px; color: #007FC8;  }
+.col.webinar-shortcode {padding-top: 3px; float: right; padding-right: 33px;}
+.col.source {
+    color: #007FC8;
+}
+.clear-fix {clear: both;display: both;}
+ 
+ul.tabsPanel {border: none; padding: 0; margin: 0; width: 100%; border: 1px solid red; display: none;}
+ul.tabholder {overflow: auto; border-bottom: 1px solid #ccc;}
+ul.tabholder li {border: 2px solid blue; float: left; width: 20%; border-radius: 0px; text-align: center; background: white !important; overflow: hidden; border-right: 1px solid #efefef !important; }
+ul.tabholder li a { border: none; width: 100%; padding: 25px 0; border-radius: 0px; color: #999 !important; background: white !important; border-bottom: 5px solid white !important;}
+ul.tabholder li a:hover {border-bottom: 5px solid #299CB8 !important;}
+ul.tabholder li.active a {color: #555 !important; border-bottom: 5px solid black !important;}
+.tableheader {background: none; color: #007FC8; font-size: 18px; padding: 10px 0;}
+tr.tablesectionstart td {padding-top: 20px !important;}
+tr.tablesectionend td {padding-bottom: 20px !important;}
+td.desc {background: #f3f3f3;}
+td.desc p {font-size: 12px; color: #777; text-align: center; width: 900px; margin: 10px auto; padding: 0 10px; }
+.singletd {width: 100%; text-align: center;}
+.tableclass { font-weight: normal; width: 32%; text-align: right; }
+
+
+.gotowpsection #emailsettings ul, .gotowpsection #emailsettings ul li {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.wrap .tabsCntents #emailsettings .error-msgs p.error{
+  text-align: left;
+}

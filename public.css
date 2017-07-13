@@ -1,0 +1,150 @@
+@CHARSET "ISO-8859-1";
+#trainingregistration {}
+#trainingregistration table {}
+#trainingregistration table head{}
+#trainingregistration table body{}
+#trainingregistration table tr{}
+#trainingregistration table td input{width: 290px;}
+#trainingregistration table td select{width: 290px;}
+#trainingregistration table td {  float: left;  min-width: 30%;}
+
+
+
+#content .entry-content {
+    -moz-hyphens: auto;
+    word-wrap: break-word;
+    max-width: 960px;
+}
+
+.error-msg{color:#f00;}
+.captcha-refresh-link {
+    margin: 0 0 0 10px;
+}
+
+    .table
+    {
+        /*  display: table;*/
+    }
+    .title
+    {
+        /*display: table-caption;*/
+        text-align: left;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .heading
+    {
+        /*display: table-row;*/
+        font-weight: bold;
+        text-align: left;
+    }
+    .row
+    {
+        /*display: table-row;*/
+    }
+    .cell
+    {
+       /* display: table-cell;*/
+        /*padding-left: 5px;*/
+        padding-right: 5px;
+    }
+    
+    .row.hidden
+    {
+        display: none;
+    }
+    
+    
+    
+.trainingregistration p.error {
+    margin: 0;color: #bc360a;
+}
+    
+.trainingregistration {
+    display: none;
+}
+    
+
+.trainings .training-item {
+    display: inline-block;
+    padding-bottom: 20px;
+    vertical-align: top;
+    min-height: 150px;
+}
+
+
+.columns4 .training-item {
+    padding-right: 2.5%;
+    width: 23.125%;
+}
+
+.columns4 .training-item:nth-of-type(4n) {
+    padding-right: 0;
+}
+
+.columns3 .training-item{
+    padding-right: 2.5%;
+    width: 31.666%;
+}
+
+.columns3 .training-item:nth-of-type(3n) {
+    padding-right: 0;
+}
+
+.columns2 .training-item{
+    padding-right: 2.5%;
+    width: 48.75%;
+}
+
+.columns2 .training-item:nth-of-type(2n) {
+    padding-right: 0;
+}
+
+
+
+.webinarregistration p.error {
+    margin: 0;color: #bc360a;
+}
+    
+.webinarregistration {
+    display: none;
+}
+    
+
+.webinars .webinar-item {
+    display: inline-block;
+    padding-bottom: 20px;
+    vertical-align: top;
+    min-height: 150px;
+}
+
+
+.columns4 .webinar-item {
+    padding-right: 2.5%;
+    width: 23.125%;
+}
+
+.columns4 .webinar-item:nth-of-type(4n) {
+    padding-right: 0;
+}
+
+.columns3 .webinar-item{
+    padding-right: 2.5%;
+    width: 31.666%;
+}
+
+.columns3 .webinar-item:nth-of-type(3n) {
+    padding-right: 0;
+}
+
+.columns2 .webinar-item{
+    padding-right: 2.5%;
+    width: 48.75%;
+}
+
+.columns2 .webinar-item:nth-of-type(2n) {
+    padding-right: 0;
+}
+
+.webinar-list .payment{display:none;}
+.webinar-list .tr-submit{display:none;}

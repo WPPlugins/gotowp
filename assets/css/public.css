@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+/* th, td {
+    width: 100%;
+} */
+
+#gotowp_personal_webinar_registration th,
+#gotowp_personal_webinar_registration td {
+ width: 100%;
+}
+
+#gotowp_personal_webinar_registration .error{ color:red;}
+#gotowp_personal_webinar_registration .tableclass{width:125px;}
+#gotowp_personal_webinar_registration .tableborder{border: 1px solid #56B4EF;}
+#gotowp_personal_webinar_registration .tableheader{background:#007FC8;color:#ffffff;}
+#gotowp_personal_webinar_registration #register_now_submit{background:#629819; color:#ffffff; font-weight:bold;}
+
+#gotowp_personal_webinar_registration select {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    color: #2B2B2B;
+    padding: 8px 10px 7px;
+    width: 178px;
+}

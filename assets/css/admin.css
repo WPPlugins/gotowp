@@ -1,0 +1,132 @@
+@CHARSET "ISO-8859-1";
+
+    #gotowp_personal_adminsettings{}
+	#gotowp_personal_adminsettings .error{ color:red;}
+	#gotowp_personal_adminsettings .tableclass{width:125px;}
+	#gotowp_personal_adminsettings .tableborder{border: 1px solid #56B4EF;margin-bottom:15px;}
+	#gotowp_personal_adminsettings .tableheader{background:#007FC8;color:#ffffff;}
+	#gotowp_personal_adminsettings #savefreewebinar_submit{background:#629819 ; color:#ffffff; font-weight:bold;padding:5px 18px 5px 15px;}
+	
+	#gotowp_personal_sample_table{float: left;}
+	#gotowp_personal_sample_table .heading_row{}
+	#gotowp_personal_sample_table .sample_row{clear: both;}
+	#gotowp_personal_sample_table .sample_row .sample_title{ float: left; padding: 5px; width: 130px;}
+	#gotowp_personal_sample_table .sample_row .sample_field{}
+	#gotowp_personal_sample_table .sample_row .sample_field .shortcode{width:375px;}	
+    #gotowp_personal_webinar_forms #update_webinar_forms {   background: none repeat scroll 0 0 #629819;    color: #FFFFFF;    font-weight: bold;    padding: 5px 18px 5px 15px;}	
+    .tableborder {    border: 1px solid #56B4EF;    margin-bottom: 15px;}
+    #tab0_content table{width:100%;}
+    .tableheader {    background: none repeat scroll 0 0 #007FC8;    color: #FFFFFF;    font-size: 15px;    font-weight: bold;    padding: 5px;}
+     tbody {    float: left;    padding: 7px 15px;}
+    .wrap form{float: left;width:100%;}
+    .wrap .row{}
+    .wrap .row .col{}
+    .wrap .row .col1{float: left;width:40%;padding:0 40px 0 0;}
+    
+.wrap .row .col2 {
+    float: right;
+}
+
+    #gotowp_training_settings .tableclass{width:125px;}
+    
+  .submit_btn {
+    background: none repeat scroll 0 0 #629819;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 18px 5px 15px;
+}
+
+.tabsCntents {
+    width: 95%;
+}
+
+.col.col1 {
+    border: medium none;
+}
+
+.col.col2 {
+    border: medium none;
+}
+
+.tableborder.no-border {
+    border: medium none;
+}
+
+.heading1 {
+    background: none repeat scroll 0 0 #007fc8;
+    color: #fff;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.width100{width:100%;}
+
+.container {
+    border-collapse: collapse;
+    display: table;
+    min-width: 700px;
+    width: 90%;margin: 0 0 10px;
+}
+
+
+
+.webinar-lists {
+    clear: both;
+    float: left;
+    padding: 20px 0;
+    min-width: 706px;
+}
+
+.webinar-lists .container {
+    width: 100%;
+}
+
+.wrap-container{
+    max-width: 715px;clear: both;
+}
+
+.heading{
+     font-weight: bold;
+     display:table-row;
+     background-color:#007fc8;
+     text-align: center;
+     line-height: 25px;
+     font-size: 14px;
+     font-family:georgia;
+     color:#fff;
+
+}
+.table-row{
+     display:table-row;
+     text-align: center;
+}
+.col{
+display:table-cell;
+border: 1px solid #CCC;padding: 7px 10px;text-align: left;
+}
+
+.col.date {
+    max-width: 125px;
+}
+
+.col.description {
+    max-width: 350px;
+}
+
+.copyshortcode {
+    background: none repeat scroll 0 0 #629819;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+}
+.copyshortcode:hover{
+    background: none repeat scroll 0 0 #4c7316;
+    color: #ffffff;
+}
